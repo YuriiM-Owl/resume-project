@@ -1,0 +1,61 @@
+.sidebar {
+    background-color: #dfeeff;
+    padding: 40px 0;
+
+    &__photo {
+        width: 370px;
+    }
+
+    & h3 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        color: #161d2a;
+        margin: 0 0 8px;
+    }
+
+    &__content {
+        padding: 40px 80px 0 40px;
+
+        &__block {
+            margin: 0 0 40px;
+        }
+    }
+
+    &__contacts-list {
+        &__item {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 24px;
+            color: #161d2a;
+
+            & a {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                text-decoration-line: underline;
+                color: #2979ff;
+                margin: 0 0 0 8px;
+                transition: 0.3s all linear;
+                &:hover {
+                    color: #a11313;
+                }
+            }
+        }
+    }
+
+    &__skills-list {
+        padding: 0 0 0 28px;
+        &__item {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #161d2a;
+            list-style-type: disc;
+        }
+    }
+}

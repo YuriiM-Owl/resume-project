@@ -6,21 +6,238 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- Favicon -->
         <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-        <!-- Normalize -->
+        <!-- Fonts -->
         <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap"
             rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
         />
+        <!-- Reset -->
+        <link rel="stylesheet" href="./styles/reset.css" />
+        <!-- Styles -->
+        <link rel="stylesheet" href="./styles/main.css" />
         <title>My resume</title>
     </head>
     <body>
-        <h1>Hello GoIT!</h1>
-        <h2>Hello GoIT!</h2>
-        <h3>Hello GoIT!</h3>
-        <h4>Hello GoIT!</h4>
-        <h5>Hello GoIT!</h5>
+        <div class="wrapper block-sizing">
+            <!-- ! Main content -->
+            <main class="main-content">
+                <!-- ! About me -->
+                <div class="about">
+                    <h2 class="about__profession">
+                        Верстальник. Junior front-end developer
+                    </h2>
+                    <h1 class="about__name">Юрій М</h1>
+                    <p class="about__summary">
+                        Я зацікавився програмуванням ще до вступу до
+                        університету і самотужки намагався розібратися з його
+                        основами. За час навчання в університеті я пробував
+                        вивчати C++, php, C#, але врешті решт зупинився на
+                        front-end розробці і вже майже 2 роки займаюся тільки
+                        вивченням технологій front-end розробки html, css (разом
+                        з препроцесорами) , JavaScript, Bootstrap та верстаю
+                        макети з Figma.
+                    </p>
+                </div>
+                <!-- ! Projects -->
+                <div class="projects">
+                    <h3 class="main-content__block-title">Projects</h3>
+                    <ol class="projects__list">
+                        <li class="projects__item">
+                            <a
+                                class="projects__link"
+                                href="https://hellen.p.goit.global/"
+                                rel="noopener"
+                                target="_blank"
+                                >https://hellen.p.goit.global/ </a
+                            ><span
+                                >............................... [ HTML5, CSS3
+                                ]</span
+                            >
+                        </li>
+                        <li class="projects__item">
+                            <a
+                                class="projects__link"
+                                href="https://cryptohub.p.goit.global/"
+                                rel="noopener"
+                                target="_blank"
+                                >https://cryptohub.p.goit.global/ </a
+                            ><span>..................... [ JavaScript ]</span>
+                        </li>
+                        <li class="projects__item">
+                            <a
+                                class="projects__link"
+                                href="https://kidslike.p.goit.global/"
+                                rel="noopener"
+                                target="_blank"
+                                >https://kidslike.p.goit.global/ </a
+                            ><span
+                                >............................ [ React.js,
+                                Node.js ]</span
+                            >
+                        </li>
+                    </ol>
+                </div>
+                <!-- ! Work Experience -->
+                <div class="work-experience">
+                    <h3 class="main-content__block-title">Work Experience</h3>
+                    <!-- Company 1 -->
+
+                    <!-- Company 2 -->
+                    <div class="work-experience__activity-container">
+                        <h4 class="work-experience__activity-title">
+                            Front-End Developer <span>Freelance</span>
+                        </h4>
+                        <p class="work-experience__period">
+                            April 2023 - up to now | Ukraine
+                        </p>
+                        <ul class="work-experience__duties-list">
+                            <li class="work-experience__duties-item">
+                                Верстка лендінгів та багатосторінкових сайтів
+                            </li>
+                            <li class="work-experience__duties-item">
+                                Розробка сайтів і мобільних застосунків
+                            </li>
+                            <li class="work-experience__duties-item">
+                                Виправлення помилок і покращення існуючого
+                                функціоналу
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Company 3 -->
+                    <div class="work-experience__activity-container">
+                        <h4 class="work-experience__activity-title">
+                            Copywriter <span>ФОП "Pixel-Shot"</span>
+                        </h4>
+                        <p class="work-experience__period">
+                            January 2023 - up to now | Ukraine
+                        </p>
+                        <ul class="work-experience__duties-list">
+                            <li class="work-experience__duties-item">
+                                Написання коротких тематичних текстів до
+                                проведених фотосесій перед їх заливанням до
+                                стокових платформ
+                            </li>
+                            <li class="work-experience__duties-item">
+                                Перевірка текстів на унікальність
+                            </li>
+                            <li class="work-experience__duties-item">
+                                Переклад текстів на англійську та перевірка
+                                правильності написання
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- ! Education -->
+                <div class="education">
+                    <h3 class="main-content__block-title">Education</h3>
+                    <div class="education__container">
+                        <h4 class="education__title">
+                            Приватні курси з вивчення англійської мови
+                        </h4>
+                        <h5 class="education__subtitle">
+                            B1 рівень розмовної та письмової англійської
+                        </h5>
+                        <p class="education__period">
+                            September 2007 - February 2011
+                        </p>
+                    </div>
+                    <!-- University -->
+                    <div class="education__container">
+                        <h4 class="education__title">
+                            Національний університет кораблебудування імені
+                            адмірала Макарова
+                        </h4>
+                        <h5 class="education__subtitle">
+                            Факультет інформаційних управляючих систем та
+                            технологій, спеціальність «комп’ютерні науки»,
+                            диплом магістра
+                        </h5>
+                        <p class="education__period">
+                            September 2014 - December 2019
+                        </p>
+                    </div>
+                    <!-- Courses -->
+                    <div class="education__container">
+                        <h4 class="education__title">GoIT Marathon</h4>
+                        <h5 class="education__subtitle">Fullstack Online</h5>
+                        <p class="education__period">May 2023 - up to now</p>
+                    </div>
+                </div>
+            </main>
+            <!-- ! Sidebar -->
+            <aside class="sidebar">
+                <!-- Photo -->
+                <img
+                    class="sidebar__photo"
+                    src="./assets/img/resume-photo.jpg"
+                    alt="My Photo"
+                />
+                <div class="sidebar__content">
+                    <!-- My contacts -->
+                    <div class="sidebar__content__block">
+                        <h3>Contacts</h3>
+                        <ul class="sidebar__contacts-list">
+                            <li class="sidebar__contacts-list__item">
+                                C:
+                                <a href="tel:+380888888888"
+                                    >+38 068 *** ** *8</a
+                                >
+                            </li>
+                            <li class="sidebar__contacts-list__item">
+                                E:
+                                <a href="mailto:yuriim.owl@gmail.com"
+                                    >YuriiM.Owl@gmail.com</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Tech Skills -->
+                    <div class="sidebar__content__block">
+                        <h3>Tech Skills</h3>
+                        <ul class="sidebar__skills-list">
+                            <li class="sidebar__skills-list__item">
+                                HTML, CSS
+                            </li>
+                            <li class="sidebar__skills-list__item">
+                                PUG, SCSS
+                            </li>
+                            <li class="sidebar__skills-list__item">
+                                BEM methodology
+                            </li>
+                            <li class="sidebar__skills-list__item">
+                                Bootstrap
+                            </li>
+                            <li class="sidebar__skills-list__item">
+                                Cross browser and Adaptive CSS
+                            </li>
+                            <li class="sidebar__skills-list__item">
+                                JavaScript
+                            </li>
+                            <!-- <li class="sidebar__skills-list__item">React.js</li> -->
+                        </ul>
+                    </div>
+                    <!-- Soft Skills -->
+                    <div class="sidebar__content__block">
+                        <h3>Soft Skills</h3>
+                        <ul class="sidebar__skills-list">
+                            <li class="sidebar__skills-list__item">
+                                B1 level of speaking English and B2 level of
+                                writing and reading English
+                            </li>
+                            <li class="sidebar__skills-list__item">Scrum</li>
+                            <li class="sidebar__skills-list__item">Agile</li>
+                            <li class="sidebar__skills-list__item">GTD</li>
+                            <li class="sidebar__skills-list__item">
+                                Аналітичні здібності
+                            </li>
+                            <li class="sidebar__skills-list__item">
+                                Педантичне ставлення до роботи
+                            </li>
+                            <li class="sidebar__skills-list__item">Teamwork</li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+        </div>
     </body>
 </html>

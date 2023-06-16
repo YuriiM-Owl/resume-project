@@ -1,0 +1,39 @@
+// File with global styles
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+    padding: 40px 40px 40px 40px;
+    background-color: #e5e5e5;
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #fff;
+}
+
+.block-sizing {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}

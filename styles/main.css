@@ -1,0 +1,233 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  padding: 40px 40px 40px 40px;
+  background-color: #e5e5e5;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #fff;
+}
+
+.block-sizing {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-content {
+  padding: 80px 40px 80px 80px;
+}
+.main-content__block-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin: 0 0 8px;
+}
+
+.about {
+  margin: 0 0 40px;
+}
+.about__profession {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.about__name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+}
+.about__summary {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.projects {
+  margin: 0 0 44px;
+}
+.projects__list {
+  padding: 0 0 0 16px;
+}
+.projects__item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  list-style: decimal;
+}
+.projects__item span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0 0 0 4px;
+}
+.projects__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #2979ff;
+  margin: 0 0 0 8px;
+  transition: 0.3s all linear;
+}
+.projects__link:hover {
+  color: #a11313;
+}
+
+.work-experience {
+  margin: 0 0 40px;
+}
+.work-experience__activity-container {
+  margin: 0 0 8px 0;
+}
+.work-experience__activity-container:last-child {
+  margin: 0;
+}
+.work-experience__activity-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0 0 12px;
+}
+.work-experience__activity-title span {
+  color: #6096ff;
+}
+.work-experience__period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 8px;
+}
+.work-experience__duties-list {
+  padding: 0 0 0 20px;
+}
+.work-experience__duties-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  list-style-type: disc;
+}
+
+.education__container {
+  margin: 0 0 8px 0;
+}
+.education__container:last-child {
+  margin: 0;
+}
+.education__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6096ff;
+  margin: 0 0 8px;
+}
+.education__subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0 0 8px;
+}
+.education__period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+
+.sidebar {
+  background-color: #dfeeff;
+  padding: 40px 0;
+}
+.sidebar__photo {
+  width: 370px;
+}
+.sidebar h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #161d2a;
+  margin: 0 0 8px;
+}
+.sidebar__content {
+  padding: 40px 80px 0 40px;
+}
+.sidebar__content__block {
+  margin: 0 0 40px;
+}
+.sidebar__contacts-list__item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+}
+.sidebar__contacts-list__item a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #2979ff;
+  margin: 0 0 0 8px;
+  transition: 0.3s all linear;
+}
+.sidebar__contacts-list__item a:hover {
+  color: #a11313;
+}
+.sidebar__skills-list {
+  padding: 0 0 0 28px;
+}
+.sidebar__skills-list__item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+  list-style-type: disc;
+}
